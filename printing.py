@@ -9,10 +9,11 @@ usia = 5
 print("Nama saya %s usia %s" % (nama, usia))
 print(f"Nama saya {nama} usia {usia}")
 
-# exercise
+# exercise menggunakan input variable, jumlah dan tampilkan hasil
 harga_ayam = float(input("Harga Ayam ="))
 harga_bumbu = float(input("Harga bumbu ="))
 harga_beras = float(input("Harga beras ="))
+# jumlahkan belanja
 total_belanja = harga_ayam + harga_bumbu + harga_beras
-
+# tampilkan hasil
 print(f"total belanja = {total_belanja}")
