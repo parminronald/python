@@ -9,11 +9,11 @@ name = "python"
 version = "3.7.4"
 print(f"My Name is {name} and version is {version}")
 
-# string operator in python
-# + operator, to combine two or more strings
-# * operator, to repeat the string
-# [] operator, to slice the string
-
+""" string operator in python
+    + operator, to combine two or more strings
+    * operator, to repeat the string
+    [] operator, to slice the string
+"""
 # example of string operator
 first_name = "Ronald"
 last_name = "Suparmin"
