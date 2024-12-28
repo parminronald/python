@@ -9,6 +9,27 @@ name = "python"
 version = "3.7.4"
 print(f"My Name is {name} and version is {version}")
 
+# string operator in python
+# + operator, to combine two or more strings
+# * operator, to repeat the string
+# [] operator, to slice the string
+
+# example of string operator
+first_name = "Ronald"
+last_name = "Suparmin"
+full_name = first_name + " " + last_name
+print(f"My Full Name is {full_name}")
+
+# example of repeat string
+repeat_string = "Hello Python"
+repeat_string = repeat_string * 3
+print(f"Repeat String is {repeat_string}")
+
+# example of slice string
+slice_string = "Hello Python"
+slice_string = slice_string[0:5]    # slice string from index 0 to 5
+print(f"Slice String is {slice_string}")
+
 # example of integer code
 age = 25
 print(f"My name is {name}, My Age is {age}")
