@@ -3,18 +3,10 @@ day = input("Enter the day of the week: ").capitalize()
 
 if day == "Saturday" or day == "Sunday": 
     print(f"Day {day} is Weekend")
-elif day == "Monday":
-    print(f"Day {day} is Weekday")
-elif day == "Tuesday":
-    print(f"Day {day} is Weekday")
-elif day == "Wednesday":
-    print(f"Day {day} is Weekday")
-elif day == "Thursday":
-    print(f"Day {day} is Weekday")
-elif day == "Friday":
+elif day in ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"] :
     print(f"Day {day} is Weekday")
 else:
-    print("Invalid Day")
+    print("That's not valid day of the week")
 
 # The basic syntax of Match case in Python
 match day:
@@ -23,4 +15,4 @@ match day:
     case "Monday" | "Tuesday" | "Wednesday" | "Thursday" | "Friday":
         print(f"Day {day} is Weekday") # match weekday
     case _:
-        print("Invalid Day") # Default case
+        print("That's not valid day of the week") # Default case
