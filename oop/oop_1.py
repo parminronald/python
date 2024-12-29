@@ -1,3 +1,4 @@
+# Class adalah blueprint atau cetakan untuk membuat object
 class Mobil:
     def __init__(self, merek, model, warna):
         self.merek = merek
