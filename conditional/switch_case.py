@@ -15,3 +15,12 @@ elif day == "Friday":
     print(f"Day {day} is Weekday")
 else:
     print("Invalid Day")
+
+# The basic syntax of Match case in Python
+match day:
+    case "Saturday" | "Sunday":
+        print(f"Day {day} is Weekend") # match weekend  
+    case "Monday" | "Tuesday" | "Wednesday" | "Thursday" | "Friday":
+        print(f"Day {day} is Weekday") # match weekday
+    case _:
+        print("Invalid Day") # Default case
