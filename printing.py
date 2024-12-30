@@ -1,3 +1,7 @@
+"""
+    - printing
+    - input variable    
+"""
 # Print String menggunakan f-string (cara baru)
 nama_depan = "Ronald"
 nama_belakang = "Suparmin"
@@ -17,3 +21,8 @@ harga_beras = float(input("Harga beras ="))
 total_belanja = harga_ayam + harga_bumbu + harga_beras
 # tampilkan hasil
 print(f"total belanja = {total_belanja}")
+
+harga_kopi = 2500
+jumlah_beli = 3
+total = harga_kopi * jumlah_beli
+print(f"Total Belanja = {total}")
