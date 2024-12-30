@@ -16,3 +16,42 @@ match day:
         print(f"Day {day} is Weekday") # match weekday
     case _:
         print("That's not valid day of the week") # Default case
+
+# Example: Handling HTTP methods in a Flask-like application
+method = "POST"
+
+match method:
+    case "GET":
+        print("Fetching resource...")
+    case "POST":
+        print("Creating resource...")
+    case "PUT":
+        print("Updating resource...")
+    case "DELETE":
+        print("Deleting resource...")
+    case _:
+        print("Unsupported HTTP method.")
+
+# Example: API response status code handling
+status_code = 200
+
+match status_code:
+    case 200:
+        print("Request succeeded.")
+    case 404:
+        print("Resource not found.")
+    case 500:
+        print("Server error. Please try again later.")
+    case _:
+        print("Unknown status code.")
+
+# Example: Categorizing configurations
+config = {"type": "database", "name": "PostgreSQL", "version": 13}
+
+match config:
+    case {"type": "database", "name": name, "version": version}:
+        print(f"Database: {name} (Version {version})")
+    case {"type": "cache", "name": name}:
+        print(f"Cache system: {name}")
+    case _:
+        print("Unknown configuration.")
